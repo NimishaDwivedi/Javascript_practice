@@ -1,3 +1,4 @@
+
 const promise1 = function updateLastUserActivity() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -15,6 +16,7 @@ const promise2 = function createPost() {
         resolve(post);
     })
 }
+
 
 const promise3 = function deletePost() {
     return new Promise((resolve, reject) => {
